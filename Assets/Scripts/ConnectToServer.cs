@@ -8,11 +8,6 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 {
     public GameObject MainMenu;
     public GameObject MultiPlayerMenu;
-    void Start()
-    {
-
-    }
-
     public void ConnectServer()
     {
         MainMenu.SetActive(false);
